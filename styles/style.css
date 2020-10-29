@@ -290,19 +290,20 @@
 /* начало блока footer */
 .footer {
   margin: 0;
-  padding: 60px 0 40px;
   min-height: 350px;
+  box-sizing: border-box;
+    padding: 60px 0 40px;
   background-color: #1f1f1f;
   color: white;
 }
 
 .footer__columns {
+  min-height: 250px;
   display: flex;
   margin: 0 auto;
   justify-content: space-between;
   flex-direction: row;
   width: 90%;
-  border: 1px solid red;
 }
 
 .footer__column_content_copyright {
@@ -310,21 +311,18 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border: 1px solid red;
 }
 
 .footer__column_content_info {
   display: flex;
   flex-direction: column;
   margin: 0;
-  border: 1px solid red;
 }
 
 .footer__column_content_social {
   display: flex;
   flex-direction: column;
   margin: 0;
-  border: 1px solid red;
 }
 
 .logo_place_footer {
@@ -332,7 +330,6 @@
   width: 183px;
   height: 35px;
   background-image: url(../images/logo_place_footer.svg);
-  border: 1px solid red;
 }
 
 .footer__author {
@@ -340,7 +337,6 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-  border: 1px solid red;
 }
 
 .footer__column-heading {
@@ -348,7 +344,6 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
-  border: 1px solid red;
 }
 
 .footer__column-links {
@@ -356,11 +351,6 @@
   flex-direction: column;
   padding: 0;
   margin: 0;
-  list-style: none;
-  line-height: 30px;
-  font-size: 18px;
-  font-weight: normal;
-  border: 1px solid red;
 }
 
 .footer__column-links:last-of-type {
@@ -381,6 +371,5 @@
   display: inline-block;
   vertical-align: middle;
   margin-right: 10px;
-  border: 1px solid red;
 }
 /* конец блока footer */
