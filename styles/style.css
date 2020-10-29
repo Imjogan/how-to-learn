@@ -81,6 +81,7 @@
 }
 /* конец блока header */
 
+/* начало блока content */
 /* начало секции description */
 .description {
   margin-top: 100px;
@@ -286,6 +287,7 @@
   top: 0;
 }
 /* конец секции kaufman */
+/* конец блока content */
 
 /* начало блока footer */
 .footer {
