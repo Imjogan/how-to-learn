@@ -1,14 +1,23 @@
 .resources__logo {
-    margin: 0;
-    width: 270px;
-    height: 38px;
-    object-fit: contain;
-    transition-property: opacity;
-      transition-duration: .2s;
-      transition-timing-function: linear;
-      transition-delay: 0;
-  }
-  
-  .resources__logo:hover {
-    opacity: .5;
-  }
+  margin: 0;
+  width: 270px;
+  height: 38px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -webkit-transition-property: opacity;
+       -o-transition-property: opacity;
+          transition-property: opacity;
+  -webkit-transition-duration: .2s;
+       -o-transition-duration: .2s;
+          transition-duration: .2s;
+  -webkit-transition-timing-function: linear;
+       -o-transition-timing-function: linear;
+          transition-timing-function: linear;
+  -webkit-transition-delay: 0;
+       -o-transition-delay: 0;
+          transition-delay: 0;
+}
+
+.resources__logo:hover {
+  opacity: .5;
+}
