@@ -1,9 +1,16 @@
 .resources__logo-zone {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 1100px;
-    margin: 80px auto 0;
-    list-style: none;
-    padding: 0;
-  }
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+     -ms-flex-direction: row;
+         flex-direction: row;
+  -webkit-box-pack: center;
+     -ms-flex-pack: center;
+       justify-content: center;
+  width: 1100px;
+  margin: 80px auto 0;
+  list-style: none;
+  padding: 0;
+}

@@ -1,12 +1,19 @@
 .logo {
-    width: 183px;
-    transition-property: opacity;
-      transition-duration: .2s;
-      transition-timing-function: linear;
-      transition-delay: 0;
-  }
-  
-  .logo:hover {
-    opacity: .5;
-  }
-  
+  width: 183px;
+  -webkit-transition-property: opacity;
+       -o-transition-property: opacity;
+          transition-property: opacity;
+  -webkit-transition-duration: .2s;
+       -o-transition-duration: .2s;
+          transition-duration: .2s;
+  -webkit-transition-timing-function: linear;
+       -o-transition-timing-function: linear;
+          transition-timing-function: linear;
+  -webkit-transition-delay: 0;
+       -o-transition-delay: 0;
+          transition-delay: 0;
+}
+
+.logo:hover {
+  opacity: .5;
+}

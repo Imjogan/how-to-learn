@@ -1,15 +1,23 @@
 .footer__social-icon {
-    width: 16px;
-    padding: 0;
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 10px;
-    transition-property: opacity;
-      transition-duration: .2s;
-      transition-timing-function: linear;
-      transition-delay: 0;
-  }
-  
-  .footer__social-icon:hover {
-    opacity: .5;
-  }
+  width: 16px;
+  padding: 0;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  -webkit-transition-property: opacity;
+       -o-transition-property: opacity;
+          transition-property: opacity;
+  -webkit-transition-duration: .2s;
+       -o-transition-duration: .2s;
+          transition-duration: .2s;
+  -webkit-transition-timing-function: linear;
+       -o-transition-timing-function: linear;
+          transition-timing-function: linear;
+  -webkit-transition-delay: 0;
+       -o-transition-delay: 0;
+          transition-delay: 0;
+}
+
+.footer__social-icon:hover {
+  opacity: .5;
+}
