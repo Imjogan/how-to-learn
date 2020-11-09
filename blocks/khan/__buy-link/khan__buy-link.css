@@ -17,6 +17,7 @@
   -webkit-transition-delay: 0;
        -o-transition-delay: 0;
           transition-delay: 0;
+  align-self: flex-start;
 }
 
 .khan__buy-link:hover {
